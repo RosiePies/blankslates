@@ -1,0 +1,9 @@
+{
+  "upgrade.blankslates.blank_slate": "Blank Slate Print",
+  "item.blankslates.blank_slate_smithing_template.ingredients": "Diamond",
+  "item.blankslates.blank_slate_smithing_template.applies_to": "Trim Template",
+
+  "upgrade.blankslates.ancient_blank_slate": "Ancient Blank Slate Print",
+  "item.blankslates.ancient_blank_slate_smithing_template.ingredients": "Netherite Scrap",
+  "item.blankslates.ancient_blank_slate_smithing_template.applies_to": "Upgrade Template"
+}

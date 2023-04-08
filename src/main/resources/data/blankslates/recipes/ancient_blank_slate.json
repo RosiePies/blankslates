@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherrack"
+    },
+    "C": {
+      "item": "minecraft:nether_brick"
+    },
+    "S": {
+      "item": "blankslates:blank_slate_smithing_template"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "item": "blankslates:ancient_blank_slate_smithing_template"
+  },
+  "show_notification": true
+}

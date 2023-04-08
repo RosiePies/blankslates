@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "blankslates",
+  "version": "23w14a-1.0.0",
+  "name": "Blank Slates",
+  "description": "A New and Improved Way of Duplicating Smithing Templates!",
+  "authors": ["RosiePies"],
+  "contact": {
+    "repo": "https://github.com/RosiePies/blankslates"
+  },
+  "license": "MIT License",
+  "icon": "assets/blankslates/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.rosiepies.blankslates.BlankSlates"
+    ]
+  },
+  "mixins": [
+    "blankslates.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": ">=1.20-alpha.23.14.a"
+  }
+}
