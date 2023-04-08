@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "blankslates",
-  "version": "23w14a-1.0.0",
+  "version": "${version}",
   "name": "Blank Slates",
   "description": "A New and Improved Way of Duplicating Smithing Templates!",
   "authors": ["RosiePies"],
