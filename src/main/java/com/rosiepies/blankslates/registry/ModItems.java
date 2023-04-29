@@ -25,7 +25,7 @@ public class ModItems {
     }
     public static void addToItemGroup() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
-            content.addAfter(Items.SNORT_POTTERY_SHARD, ANCIENTBLANKSLATE);
+            content.addBefore(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, ANCIENTBLANKSLATE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
             content.addAfter(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, BLANKSLATE);
