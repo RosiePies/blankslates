@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sentry_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.blankslates.root.title"
+    },
+    "description": {
+      "translate": "advancements.blankslates.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_trim_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:trim_templates"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_trim_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "blankslates:blank_slate",
+      "blankslates:catalyst"
+    ]
+  }
+}

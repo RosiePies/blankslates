@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:blackstone"
+    },
+    "2": {
+      "item": "minecraft:netherrack"
+    },
+    "C": {
+      "item": "blankslates:catalyst"
+    }
+  },
+  "pattern": [
+    "010",
+    "2C2",
+    "010"
+  ],
+  "result": {
+    "count": 2,
+    "item": "blankslates:ancient_catalyst"
+  },
+  "show_notification": true
+}

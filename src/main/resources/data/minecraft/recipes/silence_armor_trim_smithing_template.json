@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:diamond"
+    "item": "blankslates:catalyst"
   },
   "base": {
     "item": "minecraft:silence_armor_trim_smithing_template"

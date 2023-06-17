@@ -5,8 +5,11 @@
     "#": {
       "item": "minecraft:tuff"
     },
+    "%": {
+      "item": "minecraft:cobbled_deepslate"
+    },
     "C": {
-      "item": "minecraft:stone"
+      "item": "minecraft:amethyst_shard"
     },
     "S": {
       "item": "minecraft:paper"
@@ -14,10 +17,11 @@
   },
   "pattern": [
     "#S#",
-    "#C#",
+    "%C%",
     "###"
   ],
   "result": {
+    "count": 4,
     "item": "blankslates:blank_slate_smithing_template"
   },
   "show_notification": true

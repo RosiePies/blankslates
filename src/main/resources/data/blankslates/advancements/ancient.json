@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.blankslates.ancient.title"
+    },
+    "description": {
+      "translate": "advancements.blankslates.ancient.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blankslates:root",
+  "criteria": {
+    "has_trim_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_upgrade_smithing_template"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_trim_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "blankslates:ancient_blank_slate",
+      "blankslates:ancient_catalyst"
+    ]
+  }
+}

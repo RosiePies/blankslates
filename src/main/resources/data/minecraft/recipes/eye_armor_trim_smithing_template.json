@@ -1,14 +1,14 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:diamond"
+    "item": "blankslates:catalyst"
   },
   "base": {
-    "tag": "minecraft:coast_armor_trim_smithing_template"
+    "item": "minecraft:eye_armor_trim_smithing_template"
   },
   "result": {
     "count": 2,
-    "tag": "minecraft:coast_armor_trim_smithing_template"
+    "item": "minecraft:eye_armor_trim_smithing_template"
   },
   "template": {
     "item": "blankslates:blank_slate_smithing_template"

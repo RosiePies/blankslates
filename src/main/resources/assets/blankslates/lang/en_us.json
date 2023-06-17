@@ -1,9 +1,31 @@
 {
+  "advancements.blankslates.root.title": "What's This?",
+  "advancements.blankslates.root.description": "Find Your First Armor Trim!",
+
+  "advancements.blankslates.catalyst.title": "Duplication!",
+  "advancements.blankslates.catalyst.description": "Craft a Catalyst.",
+
+  "advancements.blankslates.blank_slate.title": "Is This Paper?",
+  "advancements.blankslates.blank_slate.description": "Craft a Blank Slate.",
+
+  "advancements.blankslates.ancient.title": "An Enigmatic Knowledge.",
+  "advancements.blankslates.ancient.description": "Find an Ancient Netherite Upgrade.",
+
+  "advancements.blankslates.ancient_catalyst.title": "A Greater Understanding.",
+  "advancements.blankslates.ancient_catalyst.description": "Craft an Ancient Catalyst.",
+
+  "advancements.blankslates.ancient_blank_slate.title": "Netherite Schematics.",
+  "advancements.blankslates.ancient_blank_slate.description": "Craft an Ancient Blank Slate.",
+
   "upgrade.blankslates.blank_slate": "Blank Slate Print",
-  "item.blankslates.blank_slate_smithing_template.ingredients": "Diamond",
+  "item.blankslates.blank_slate_smithing_template.ingredients": "Catalyst",
   "item.blankslates.blank_slate_smithing_template.applies_to": "Trim Template",
 
   "upgrade.blankslates.ancient_blank_slate": "Ancient Blank Slate Print",
-  "item.blankslates.ancient_blank_slate_smithing_template.ingredients": "Netherite Scrap",
-  "item.blankslates.ancient_blank_slate_smithing_template.applies_to": "Upgrade Template"
+  "item.blankslates.ancient_blank_slate_smithing_template.ingredients": "Ancient Catalyst",
+  "item.blankslates.ancient_blank_slate_smithing_template.applies_to": "Upgrade Template",
+
+  "item.blankslates.ancient_catalyst": "Ancient Catalyst",
+
+  "item.blankslates.catalyst": "Catalyst"
 }

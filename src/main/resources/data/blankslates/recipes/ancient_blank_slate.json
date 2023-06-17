@@ -5,19 +5,23 @@
     "#": {
       "item": "minecraft:netherrack"
     },
+    "%": {
+      "item": "minecraft:blackstone"
+    },
     "C": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:blaze_rod"
     },
     "S": {
-      "item": "blankslates:blank_slate_smithing_template"
+      "item": "minecraft:paper"
     }
   },
   "pattern": [
     "#S#",
-    "#C#",
+    "%C%",
     "###"
   ],
   "result": {
+    "count": 4,
     "item": "blankslates:ancient_blank_slate_smithing_template"
   },
   "show_notification": true

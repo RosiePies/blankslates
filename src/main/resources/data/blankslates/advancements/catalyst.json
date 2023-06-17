@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "blankslates:catalyst"
+    },
+    "title": {
+      "translate": "advancements.blankslates.catalyst.title"
+    },
+    "description": {
+      "translate": "advancements.blankslates.catalyst.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blankslates:root",
+  "criteria": {
+    "has_catalyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blankslates:catalyst"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_catalyst"
+    ]
+  ]
+}
