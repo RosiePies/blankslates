@@ -1,12 +1,9 @@
-package com.rosiepies.blankslates.registry;
-
-import java.util.List;
+package com.rosiepies.blankslates.item;
 
 import com.rosiepies.blankslates.BlankSlates;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.SmithingTemplateItem;
 import net.minecraft.screen.ScreenTexts;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
@@ -14,6 +11,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class SlateItem extends Item {
     private static final Formatting TITLE_FORMATTING;
@@ -44,7 +43,7 @@ public class SlateItem extends Item {
     private final List<Identifier> emptyAdditionsSlotTextures;
 
     public SlateItem(Text appliesToText, Text ingredientsText, Text titleText, Text baseSlotDescriptionText, Text additionsSlotDescriptionText, List<Identifier> emptyBaseSlotTextures, List<Identifier> emptyAdditionsSlotTextures) {
-        super(new Item.Settings());
+        super(new Settings());
         this.appliesToText = appliesToText;
         this.ingredientsText = ingredientsText;
         this.titleText = titleText;

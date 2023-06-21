@@ -17,13 +17,17 @@
   "advancements.blankslates.ancient_blank_slate.title": "Netherite Schematics.",
   "advancements.blankslates.ancient_blank_slate.description": "Craft an Ancient Blank Slate.",
 
-  "upgrade.blankslates.blank_slate": "Blank Slate Print",
-  "item.blankslates.blank_slate_smithing_template.ingredients": "Catalyst",
-  "item.blankslates.blank_slate_smithing_template.applies_to": "Trim Template",
+  "smithing_template.blankslates.blank_slate": "Blank Slate Print",
+  "smithing_template.blankslates.blank_slate.ingredients": "Catalyst",
+  "smithing_template.blankslates.blank_slate.applies_to": "Trim Template",
+  "smithing_template.blankslates.blank_slate.base_slot_description": "Add any Trim Smithing Template",
+  "smithing_template.blankslates.blank_slate.additions_slot_description": "Add Catalyst",
 
-  "upgrade.blankslates.ancient_blank_slate": "Ancient Blank Slate Print",
-  "item.blankslates.ancient_blank_slate_smithing_template.ingredients": "Ancient Catalyst",
-  "item.blankslates.ancient_blank_slate_smithing_template.applies_to": "Upgrade Template",
+  "smithing_template.blankslates.ancient_blank_slate": "Ancient Blank Slate Print",
+  "smithing_template.blankslates.ancient_blank_slate.ingredients": "Ancient Catalyst",
+  "smithing_template.blankslates.ancient_blank_slate.applies_to": "Upgrade Template",
+  "smithing_template.blankslates.ancient_blank_slate.base_slot_description": "Add any Upgrade Smithing Template",
+  "smithing_template.blankslates.ancient_blank_slate.additions_slot_description": "Add Ancient Catalyst",
 
   "item.blankslates.ancient_catalyst": "Ancient Catalyst",
 
